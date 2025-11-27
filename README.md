@@ -7,7 +7,7 @@ All results are based on running code inside Google Colab.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 High-energy physics experiments produce jets—collimated sprays of particles.  
 Identifying whether a jet originates from a **top quark (signal)** or **QCD background** is a key task in jet tagging.
@@ -21,7 +21,7 @@ Both models are trained and evaluated on the same dataset and compared using acc
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 The dataset `val.h5` is downloaded from Zenodo:
 https://zenodo.org/records/2603256/files/val.h5
