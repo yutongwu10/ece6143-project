@@ -1,4 +1,4 @@
-# ece6143-project
+# ece6143-project  
 # Jet Tagging with CNN and ResNet50 Fine-Tuning
 
 This project performs **jet tagging** using deep learning, focusing on distinguishing **signal** vs **background** jets from particle physics data.  
@@ -18,6 +18,21 @@ This project builds two models:
 2. **ResNet50 (ImageNet fine-tuning)** — using upsampled 75×75×3 images
 
 Both models are trained and evaluated on the same dataset and compared using accuracy and ROC–AUC.
+
+---
+
+##  Dataset
+
+The dataset `val.h5` is downloaded from Zenodo:  
+https://zenodo.org/records/2603256/files/val.h5
+
+We use:
+
+- **Signal**: Top-quark jets (10,000 events)  
+- **Background**: QCD jets (10,000 events)
+
+Each event contains 200 particles with (E, px, py, pz), and the leading fat jet is reconstructed using the anti-kT algorithm.
+
 
 ---
 
